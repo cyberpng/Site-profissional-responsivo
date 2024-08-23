@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz@0,14..32;1,14..32&display=swap');
+
+
+
+    
+
+
+body{
+    font-size: 14px;
+    background-color: #450920;
+    font-family: 'Inter';
+}
+
+
+.container {
+    background-color: #DA627D;
+    width: 90%;
+    max-width: 400px;
+    height: auto;
+    margin: 5% auto;
+    box-sizing: border-box;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+h1 {
+    color: #F9DBBD;
+    max-width: 100%;
+    text-align: center;
+}
+
+.local {
+    margin: -9px;
+    color: white;
+}
+
+.profissao {
+    color: #F9DBBD;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.imagem {
+    margin-top: 30px;
+   max-width: 100%;
+   max-height: 100%;
+   height: auto;
+   width: 100px;
+    border-radius: 50%;    
+    border-style: solid;
+    border-color: #F9DBBD;
+}
+
+.botoes {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+
+.github, .frontend, .linkedin, .twitter, .instagram {
+    cursor: pointer;
+    font-family: 'Inter';
+    padding: 10px;
+    border: none;
+    width: 100%;
+    max-width: 350px;
+    background-color: #FFA5AB;
+    border-radius: 9px;
+    color: #0c0600;
+    transition-duration: 0.4s;
+}
+
+.github:hover, .frontend:hover, .linkedin:hover, .twitter:hover, .instagram:hover {
+    background-color: #F9DBBD;
+    color: black;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    color: #F9DBBD;
+    margin-top: 20px;
+}
+
+.attribution a {
+    color: white;
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        width: 95%; /* Largura ligeiramente maior em dispositivos menores */
+        margin-top: 3%;
+    }
+    
+    body {
+        padding-top: 6em;
+    }
+    .imagem {
+        width: 80px; /* Diminuição da imagem para dispositivos menores */
+    }
+}
